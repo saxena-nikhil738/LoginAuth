@@ -5,22 +5,22 @@ import Pagination from "../Pagination/Pagination";
 const Categories = () => {
   const numberOfRecords = 5;
   const category = [
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Tea",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
-    "Movies",
+    "Shoes",
+    "Men T-shirt",
+    "Makeup",
+    "Jewellery",
+    "Women T-shirt",
+    "Mobile",
+    "Tablet",
+    "Charger",
+    "Fashion",
+    "Jeans",
+    "Shorts",
+    "Kurta",
+    "Lower",
+    "Cap",
+    "Watchs",
+    "Earphone",
   ];
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
