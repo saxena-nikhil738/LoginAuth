@@ -47,7 +47,7 @@ const OTPVarification = () => {
     const { email } = location.state;
     console.log(email);
     try {
-      const res = await axios.post(`${BASE_URL}verifyOTP`, {
+      const res = await axios.post(`${BASE_URL}/verifyOTP`, {
         email,
         OTP,
       });
