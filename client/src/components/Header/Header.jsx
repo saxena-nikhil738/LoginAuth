@@ -20,11 +20,31 @@ const Header = () => {
           <div className="logo">Ecommerce</div>
           <div className="middle">
             <ul>
-              <li>Categories</li>
-              <li>Sales</li>
-              <li>Clearance</li>
-              <li>New stock</li>
-              <li>Trending</li>
+              <li>
+                <a href="/categories" style={{ textDecoration: "none" }}>
+                  Categories
+                </a>
+              </li>
+              <li>
+                <a href="" style={{ textDecoration: "none", color: "black" }}>
+                  Sales
+                </a>
+              </li>
+              <li>
+                <a href="" style={{ textDecoration: "none", color: "black" }}>
+                  Clearance
+                </a>
+              </li>
+              <li>
+                <a href="" style={{ textDecoration: "none", color: "black" }}>
+                  New stock
+                </a>
+              </li>
+              <li>
+                <a href="" style={{ textDecoration: "none", color: "black" }}>
+                  Trending
+                </a>
+              </li>
             </ul>
           </div>
           <div className="cart">
