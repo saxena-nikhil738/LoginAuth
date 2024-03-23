@@ -1,0 +1,26 @@
+.form-cat{
+    border: 1px rgb(217, 217, 217) solid;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 0 50px;
+    border-radius: 24px;
+    height: 500px;
+}
+.marks{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.page{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
